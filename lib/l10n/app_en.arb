@@ -1,0 +1,5 @@
+{
+  "app_title": "Flutter Demo",
+  "button_tooltip": "Increment",
+  "pushed_button_message": "You have pushed the button this many times:"
+}

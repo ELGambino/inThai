@@ -1,0 +1,48 @@
+name: in_thai_mobile
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  cupertino_icons: ^1.0.6
+  stripe_checkout: ^1.0.0
+  flutter_stripe: ^10.1.1
+  fluttertoast: ^8.0.8
+  http: ^1.2.1
+  flutter_dotenv: ^5.0.2
+  web_socket_channel: ^2.4.5
+  firebase_auth: ^4.3.0
+  url_launcher: ^6.2.6
+  webview_flutter: ^3.0.4
+  google_fonts: ^6.2.1
+  image: ^3.0.1
+  shared_preferences: ^2.2.3
+  flutter_inappwebview: ^6.0.0
+  font_awesome_flutter: ^10.7.0
+  table_calendar: ^3.0.0
+  flutter_svg: ^2.0.10+1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  intl_translation: ^0.20.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/.env
+    - assets/logo.png
+    - assets/
